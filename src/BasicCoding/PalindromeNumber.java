@@ -1,6 +1,6 @@
 package BasicCoding;
 
-public class PalindromeCheck {
+public class PalindromeNumber {
 
     /**
      * Palindrome Number (LeetCode #9)
@@ -37,7 +37,7 @@ public class PalindromeCheck {
     }
 
     public static void main(String[] args) {
-        PalindromeCheck sol = new PalindromeCheck();
+        PalindromeNumber sol = new PalindromeNumber();
         System.out.println(sol.isPalindrome(121));   // true
         System.out.println(sol.isPalindrome(-121));  // false
         System.out.println(sol.isPalindrome(10));    // false
